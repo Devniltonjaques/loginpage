@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+}
+
+.div1 {
+    flex: 1;
+    background-image: url(img/santrinovo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.div2 {
+    flex: 3;
+    background-image: url(img/caraazul.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:1110px;
+    display: flex;
+}
+
+.arealogin {
+    background-color: rgba(224, 222, 222, 0.9);
+    padding: 80px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    color: rgb(80, 75, 75);   
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+
+}
+
+button {
+    width: 100%;
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: deepskyblue;
+}
